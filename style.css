@@ -1,0 +1,298 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.navheader{
+    height: 100vh;
+    width: 100vw;
+    background-color: cadetblue;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px;
+
+}
+nav ul li{
+    display: inline-block;
+    
+}
+a{
+    text-decoration: none;
+    padding-right: 20px;
+}
+nav ul li a{
+    font-weight: bold;
+    color: white;
+
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    cursor:pointer ;
+}
+.navbtn{
+    background-color: orange;
+    padding: 10px 20px;
+    border-radius: 15px;
+    color: white;
+    font-weight: 700px;
+    text-transform: uppercase;
+}
+.logo::first-letter{
+    font-size: 40px;
+    border: 2px solid black;
+    border-right: transparent;
+    color: orange;
+}
+.navbtn:hover{
+    background-color: white;
+    color: orange;
+
+}
+.aboutme{
+    position: absolute;
+    top: 40%;
+    left: 12%;
+}
+}
+ 
+.aboutme h1{
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 100px;
+}
+.aboutme h1 span{
+    color: orange;
+    font-size: 90px;
+}
+.aboutme p{
+    font-size: 22px;
+    width: 70%;
+}
+.image{
+    position: absolute;
+    top: 20%;
+    left: 68%;
+}
+.image img{
+    border-radius: 80px;
+}
+.cv{
+    line-height: 5;
+    left: 12%;
+    background-color: white;
+    color: orange;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 800;
+}
+.about{
+    width: 100vw;
+    height: 100vh;
+    background-color:rgba(95, 158, 160, 0.642);
+    padding-top: 50px;
+    padding-left: 650px;
+    
+
+}
+.about h1{
+    color: orange;
+    padding: 20px;
+    font-size: 80px;
+
+}
+h4{
+    color: white;
+    padding: 12px 20px;
+}
+.pic{
+    position: absolute;
+    top: 820px;
+    left: 250px;
+    
+}
+.pic img{
+    border-radius: 50px;
+}
+.about a{
+    position: absolute;
+    background-color: orange;
+    color: white;
+    top: 1150px;
+    right: 700px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    
+}
+.about p{
+    font-size: 20px;
+    width: 40%;
+    padding-left:15px ;
+    
+
+}
+.portfolio{
+    height: 100vh;
+    width: 100vw;
+    background-color:blueviolet;
+
+}
+.portfolio h1{
+    text-align: center;
+    font-size:50px ;
+    color: white;
+    padding: 20px;
+}
+.portfolio p{
+    font-size:20px;
+    color: white; 
+    margin-left: 640px;
+}
+.btnnav{
+    margin-left: 430px;
+    top: 3%;
+}
+.btnnav ul li{
+margin: 20px;
+}
+.A{
+    border: 2px solid white;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+
+
+
+}
+.B{
+    border:2px solid white ;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+}
+.C{
+    border:2px solid white ;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+}
+.D{ 
+    border: 2px solid white;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+}
+.photo{
+    padding-left: 9%;
+    padding-top: 2%;
+}
+.M{
+    height: 100vh;
+    width: 100vw;
+    background-color:yellow;
+    padding-left:700px;
+    padding-top: 70px
+
+}
+.M h4{
+    font-size:40px;
+    font-weight: 300px;
+    color: black;
+}
+.M h1{
+    font-size: 80px;
+    padding-left: 15px;
+}
+.M p{
+    padding-left: 15px;
+    padding-right:400px;
+    padding: 0%;
+   width: 50%;
+}
+.M  a{position:absolute;
+     color: blue;
+    background-color: bisque;  
+    padding: 10px 20px;
+    border-radius: 10px;
+    top: 2500px;
+    right:600px;
+    margin: 10px;
+    
+}
+.R{
+    position: absolute;
+    left:5%;
+    top:2300px ;
+   }
+   .R img{
+    border-radius: 40px;
+    border: 20px solid blue;
+   }
+    .contact{
+
+        height: 100vh;
+        width: 100vw;
+        background-color:greenyellow;
+        padding-left:600px;
+        padding-top: 80px;
+        
+
+    }
+    .contact h1{
+        background-color: pink;
+        
+        width:350px ;
+        text-align: center;
+        margin:10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 40px;
+        right:50px;
+        
+
+
+    }
+    .contact p{
+        padding-left: 15px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        width: 40%;
+        color: brown;  
+    }
+    .forome{
+    
+    }
+    .forome input {
+        width:40%;
+        font-size: 15px;
+        padding: 4px 4px;
+        margin: 10px;  
+    }
+    .forome select{
+        height: 40px;
+        width:40%;
+        margin: 10px;
+        font-size:15px ;  
+    }
+    
+    .forome textarea{
+        margin:10px;
+        padding: 4px 4px;
+        width: 40%;  
+    }
+    .conbtn{
+        padding: 10px 25px;
+        font-weight: 800;
+        background-color: pink;
+        border: none;
+        border-radius: 10px;
+        color: white;
+        position: absolute;
+        left: 50%;
+        top: 472%;
+      
+    }
